@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "agentModelOverrides": {
+    "lead": "claude-opus-5.5",
+    "frontend": "claude-sonnet-5.5",
+    "tester": "claude-sonnet-5.5",
+    "reviewer": "claude-opus-5.5",
+    "docs": "claude-haiku-4.5",
+    "scribe": "claude-haiku-4.5",
+    "rai": "gemini-3.1-pro",
+    "fact-checker": "gemini-3.1-pro"
+  },
+  "agentReasoningEffortOverrides": {
+    "frontend": "high",
+    "reviewer": "high",
+    "docs": "low"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "agentModelOverrides": {
+    "lead": "gpt-5.6-luna",
+    "frontend": "claude-sonnet-5.5",
+    "tester": "gpt-5.6-terra",
+    "reviewer": "gpt-5.6-terra",
+    "docs": "gpt-5.6-luna",
+    "scribe": "gpt-5.6-luna",
+    "rai": "claude-haiku-4.5",
+    "fact-checker": "gpt-5.6-luna"
+  },
+  "agentReasoningEffortOverrides": {
+    "lead": "medium",
+    "frontend": "medium",
+    "tester": "medium",
+    "reviewer": "medium",
+    "docs": "low",
+    "scribe": "low",
+    "rai": "medium",
+    "fact-checker": "low"
+  }
+}

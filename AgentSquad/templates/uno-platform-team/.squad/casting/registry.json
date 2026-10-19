@@ -1,0 +1,13 @@
+{
+  "version": 1,
+  "agents": {
+    "lead": {"persistent_name": "Lead", "universe": "descriptive", "created_at": "{{created_at_iso8601}}", "legacy_named": false, "status": "active"},
+    "frontend": {"persistent_name": "Frontend", "universe": "descriptive", "created_at": "{{created_at_iso8601}}", "legacy_named": false, "status": "active"},
+    "tester": {"persistent_name": "Tester", "universe": "descriptive", "created_at": "{{created_at_iso8601}}", "legacy_named": false, "status": "active"},
+    "reviewer": {"persistent_name": "Reviewer", "universe": "descriptive", "created_at": "{{created_at_iso8601}}", "legacy_named": false, "status": "active"},
+    "docs": {"persistent_name": "Docs", "universe": "descriptive", "created_at": "{{created_at_iso8601}}", "legacy_named": false, "status": "active"},
+    "scribe": {"persistent_name": "Scribe", "universe": "built-in", "created_at": "{{created_at_iso8601}}", "legacy_named": false, "status": "active"},
+    "rai": {"persistent_name": "Rai", "universe": "built-in", "created_at": "{{created_at_iso8601}}", "legacy_named": false, "status": "active"},
+    "fact-checker": {"persistent_name": "Fact Checker", "universe": "built-in", "created_at": "{{created_at_iso8601}}", "legacy_named": false, "status": "active"}
+  }
+}
